@@ -1,0 +1,812 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.3f1 (e00e24c187a5) revision 14683684'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/531508/lego
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54056
+Successfully changed project path to: C:/Users/531508/lego
+C:/Users/531508/lego
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15940] Host "[IP] 172.27.172.122 [Port] 0 [Flags] 2 [Guid] 1985294456 [EditorId] 1985294456 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21252) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15940] Host "[IP] 172.27.172.122 [Port] 0 [Flags] 2 [Guid] 1985294456 [EditorId] 1985294456 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21252) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 16.03 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.3f1 (e00e24c187a5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/531508/lego/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.014936 seconds.
+- Loaded All Assemblies, in  0.415 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.378 seconds
+Domain Reload Profiling: 791ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (379ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (123ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.978 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 6 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.310 seconds
+Domain Reload Profiling: 6282ms
+	BeginReloadAssembly (2483ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (2369ms)
+		LoadAssemblies (2619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (582ms)
+			TypeCache.Refresh (533ms)
+				TypeCache.ScanAssembly (469ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1310ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (685ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (479ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.23 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6589 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (1.5 MB). Loaded Objects now: 7141.
+Memory consumption went from 264.3 MB to 262.8 MB.
+Total: 6.662800 ms (FindLiveObjects: 0.692000 ms CreateObjectMapping: 0.195800 ms MarkObjects: 5.143800 ms  DeleteObjects: 0.630100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.947 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 6 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.383 seconds
+Domain Reload Profiling: 2325ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (337ms)
+				TypeCache.ScanAssembly (323ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6394 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.5 MB). Loaded Objects now: 7159.
+Memory consumption went from 230.0 MB to 228.4 MB.
+Total: 7.463200 ms (FindLiveObjects: 0.752500 ms CreateObjectMapping: 0.377600 ms MarkObjects: 5.822100 ms  DeleteObjects: 0.510200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1563244.534641 seconds.
+  path: Assets/LEGO Data/Connectivity/3001.prefab
+  artifactKey: Guid(b6a9d9a9c9d9cb047a141220765b9a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Connectivity/3001.prefab using Guid(b6a9d9a9c9d9cb047a141220765b9a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef0277e822d960e83a4264d77ce304a') in 0.029703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.013276 seconds.
+  path: Assets/LEGO Data/Colliders/3626.prefab
+  artifactKey: Guid(194af154b9ed11f4c959894110adf68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Colliders/3626.prefab using Guid(194af154b9ed11f4c959894110adf68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0949b14bfbc04df6e5e2dffe777ab373') in 0.002947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LEGO Data/Connectivity/3815.prefab
+  artifactKey: Guid(933bfd5a650ed4143bc2f8fb4e40b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Connectivity/3815.prefab using Guid(933bfd5a650ed4143bc2f8fb4e40b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3838bea3f4f26567c3a46e2ca861e57b') in 0.001879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LEGO Data/Colliders/3815.prefab
+  artifactKey: Guid(c5bd7ed96ece8654283c2e37ae6c9290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Colliders/3815.prefab using Guid(c5bd7ed96ece8654283c2e37ae6c9290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082ffd7985832daedaaf0df1b053b7e3') in 0.001516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LEGO Data/Colliders/3819.prefab
+  artifactKey: Guid(1144f3abc17d41847b3b3b6c5c594323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Colliders/3819.prefab using Guid(1144f3abc17d41847b3b3b6c5c594323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e54a96d8fad021a0c45b8bc6105e7ac') in 0.001764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LEGO Data/Connectivity/44237.prefab
+  artifactKey: Guid(f5ddb55d871d26d43bbf534316963337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Connectivity/44237.prefab using Guid(f5ddb55d871d26d43bbf534316963337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b88427615a9d984085494d65c49da9') in 0.003398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LEGO Data/Colliders/44237.prefab
+  artifactKey: Guid(be363e8dab74ba64fba170df556efd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Colliders/44237.prefab using Guid(be363e8dab74ba64fba170df556efd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1169567b85ec2a277bd69c50ecd22892') in 0.002273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/Aerial_mesh.prefab
+  artifactKey: Guid(c691257436ab8b94c82c2a977d632162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/Aerial_mesh.prefab using Guid(c691257436ab8b94c82c2a977d632162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247ba2ce609f577a0c66d0e4e288632b') in 0.007556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.023584 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/ambo_seperate.prefab
+  artifactKey: Guid(c428101f4ae3e124c905a70d548e6181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/ambo_seperate.prefab using Guid(c428101f4ae3e124c905a70d548e6181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782868c7021eac32f5f8d3a7a86038c2') in 0.007137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.028396 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/billboard_mesh.prefab
+  artifactKey: Guid(8db24802b0170464c9267f3c45e6f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/billboard_mesh.prefab using Guid(8db24802b0170464c9267f3c45e6f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f19fab24e175329d10c66ad4c7f0906') in 0.007818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/bin_mesh.prefab
+  artifactKey: Guid(b315fa776449eec44a8591af7353afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/bin_mesh.prefab using Guid(b315fa776449eec44a8591af7353afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930b1d7b1e4e577174cd3d8f8d1a1d67') in 0.006969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.024745 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentLarge_Brown.prefab
+  artifactKey: Guid(74978b6b36516b04b92f6ec6b3b0898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentLarge_Brown.prefab using Guid(74978b6b36516b04b92f6ec6b3b0898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911fa591b6ab1ff2aa255dfdebdc9e49') in 0.007872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentLarge_Red.prefab
+  artifactKey: Guid(7170f1a798cad8241b24ac62c357fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentLarge_Red.prefab using Guid(7170f1a798cad8241b24ac62c357fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205ff58e54d89747e3714ca8e260f10') in 0.002194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentSmall_Red.prefab
+  artifactKey: Guid(17aee72cfed4c9f4f9ef75fc4cb7d155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentSmall_Red.prefab using Guid(17aee72cfed4c9f4f9ef75fc4cb7d155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961c4f9bb44c7bceee87d6a9b24430f9') in 0.009150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_AutoRepair.prefab
+  artifactKey: Guid(04339706bd57d0e4ca629c1c3ef52dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_AutoRepair.prefab using Guid(04339706bd57d0e4ca629c1c3ef52dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb8822d0ed7718a7b1d36b8c4326e72') in 0.008786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_CoffeeShop.prefab
+  artifactKey: Guid(4637067e053c0ea4ba6097aea2e08e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_CoffeeShop.prefab using Guid(4637067e053c0ea4ba6097aea2e08e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ca78086733d7479d52c6fd927162ba') in 0.008631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_01.prefab
+  artifactKey: Guid(5370f88a07aca8a4da7f42470d54c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_01.prefab using Guid(5370f88a07aca8a4da7f42470d54c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e997f05fc8eb07dc3bcc6a2ff20c012c') in 0.008184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentSmall_Orange.prefab
+  artifactKey: Guid(4da0d0ffaf9076f40a1d00fc7552f70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentSmall_Orange.prefab using Guid(4da0d0ffaf9076f40a1d00fc7552f70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c155d90596383ccc398514a7651665b3') in 0.001638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_05.prefab
+  artifactKey: Guid(8ccd238123648c94f98a6b61b908ac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_05.prefab using Guid(8ccd238123648c94f98a6b61b908ac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2597de65835315407dc2c3bca4686cf0') in 0.008125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_07.prefab
+  artifactKey: Guid(f3dfcd08b2af5f94da73865a2d68e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_07.prefab using Guid(f3dfcd08b2af5f94da73865a2d68e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb050f8858a10c822e48696e0eeba7f') in 0.007682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_011.prefab
+  artifactKey: Guid(1459de0546e39384094cf9920af4f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_011.prefab using Guid(1459de0546e39384094cf9920af4f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3abec8b2e23e7af30038e49f1133d23') in 0.006904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_014.prefab
+  artifactKey: Guid(afb1a50d61315a441b22a007d1c0d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_014.prefab using Guid(afb1a50d61315a441b22a007d1c0d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e87c001a7e2e9988d08cb789e36185') in 0.008840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_015.prefab
+  artifactKey: Guid(305e1eb2d9581674f9f4bf509f939360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_015.prefab using Guid(305e1eb2d9581674f9f4bf509f939360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a81d11514dd326e3d5592cb0dea3b0') in 0.007866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeLarge_Blue.prefab
+  artifactKey: Guid(a4c5669ce7e9fed44bcf7e1ba43e98da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeLarge_Blue.prefab using Guid(a4c5669ce7e9fed44bcf7e1ba43e98da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb85410262f4f7629efa4ee21a69d79') in 0.007933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentLarge_Orange.prefab
+  artifactKey: Guid(2d94dc6eeb30a8b4da06c6ac961039d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentLarge_Orange.prefab using Guid(2d94dc6eeb30a8b4da06c6ac961039d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fbecc2ba09af9b32cd96b317b3f1eb') in 0.001543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeMedium_Brown.prefab
+  artifactKey: Guid(b180380f61111a446b81013ecb8fd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeMedium_Brown.prefab using Guid(b180380f61111a446b81013ecb8fd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca305829a6a786e816f0addf8c9a38fe') in 0.007555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeSmall_Blue.prefab
+  artifactKey: Guid(0c86e3b71038ebc4db3ad0766b7fac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeSmall_Blue.prefab using Guid(0c86e3b71038ebc4db3ad0766b7fac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e252497f3d4efc633fbe0bcb7dd4b9') in 0.008042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeStepped_Blue.prefab
+  artifactKey: Guid(29789fbe7685f4c4992b2a378483d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeStepped_Blue.prefab using Guid(29789fbe7685f4c4992b2a378483d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20307c5dcc0816519c0237a5b888619') in 0.006078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_01.prefab
+  artifactKey: Guid(303d9b02a3b7b874eb028800a52153a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_01.prefab using Guid(303d9b02a3b7b874eb028800a52153a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64734cbad4b5f2085064ff3d2fa2cef9') in 0.008370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_02.prefab
+  artifactKey: Guid(fc152a1d9fdf7c149ad52afea80feabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_02.prefab using Guid(fc152a1d9fdf7c149ad52afea80feabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff6a878ebf47043ee79e306d453d7b5') in 0.007857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Store_Pawn.prefab
+  artifactKey: Guid(63a76814abd51c84d9b5bdda95b1dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Store_Pawn.prefab using Guid(63a76814abd51c84d9b5bdda95b1dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070190cf01682e0aff3e05402bf20770') in 0.007127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StoreCorner_Video.prefab
+  artifactKey: Guid(d38740e8c663c3d4a816bda0dc5ea549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StoreCorner_Video.prefab using Guid(d38740e8c663c3d4a816bda0dc5ea549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63e16a070948e841a6eb12adf3c1217') in 0.002404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_03.prefab
+  artifactKey: Guid(2d411e3705baf384f95cd9fdb8f7c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_03.prefab using Guid(2d411e3705baf384f95cd9fdb8f7c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea54e173a62d65b8a4fb098743c1dda4') in 0.007260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_seperate_blue.prefab
+  artifactKey: Guid(5dce16f7ded4b634fb0ad8550f306b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_seperate_blue.prefab using Guid(5dce16f7ded4b634fb0ad8550f306b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201529ef5f3cbebe372955e13ab1696d') in 0.007496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/bush_large_mesh.prefab
+  artifactKey: Guid(501d25c7f0c923348813a11dae66cbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/bush_large_mesh.prefab using Guid(501d25c7f0c923348813a11dae66cbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97a990eade0f27551caeca7f647d864') in 0.007820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_seperate_grey.prefab
+  artifactKey: Guid(f2827a5a3cbff764b89f063e0199eff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_seperate_grey.prefab using Guid(f2827a5a3cbff764b89f063e0199eff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41af5425936cdf0fe03c3c2831ea167') in 0.002063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_010.prefab
+  artifactKey: Guid(3a43af96389e30748923ae52a81e005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_010.prefab using Guid(3a43af96389e30748923ae52a81e005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbddbae6c2570ab937a195bbdb173de') in 0.006732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_Orange.prefab
+  artifactKey: Guid(f83bacb1bf0cccb4ba70fde5cdda69a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_Orange.prefab using Guid(f83bacb1bf0cccb4ba70fde5cdda69a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d561ec5f171314b36d20ddf2da2d236') in 0.001811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Store_Video.prefab
+  artifactKey: Guid(b5a69d4e00207dd4e8f4a3fda7e777e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Store_Video.prefab using Guid(b5a69d4e00207dd4e8f4a3fda7e777e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f75709dadc510ffddceb90bcb1ba6ec') in 0.001659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_brown.prefab
+  artifactKey: Guid(aeccb9afd2c5d0a49806a3a543b169d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_brown.prefab using Guid(aeccb9afd2c5d0a49806a3a543b169d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af335ea32ee5a26bd89bfdbc74aca5b0') in 0.001650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StripClub.prefab
+  artifactKey: Guid(5539162e689ec92449d1ea2b286dfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StripClub.prefab using Guid(5539162e689ec92449d1ea2b286dfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a775f30962c87e518539753f6ea8933a') in 0.008959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_blue.prefab
+  artifactKey: Guid(3c08aff2ef951194b8925cdded7ec3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_blue.prefab using Guid(3c08aff2ef951194b8925cdded7ec3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177ef38bee7918d5de0e0f62b737e305') in 0.007620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_seperate_blue.prefab
+  artifactKey: Guid(72960b9b4c20f554b9cffbbe24f21592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_seperate_blue.prefab using Guid(72960b9b4c20f554b9cffbbe24f21592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a316e3288c84e81af9696bea6726b89') in 0.006197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/FixedScaleCharacters/Character_Alien_Male_01.prefab
+  artifactKey: Guid(9d6944272ca1ef448a6c08e77fec10f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/FixedScaleCharacters/Character_Alien_Male_01.prefab using Guid(9d6944272ca1ef448a6c08e77fec10f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf591f0be45432a88ce2f9dfa3c02c2e') in 0.072317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/Character_Alien_Male_01.prefab
+  artifactKey: Guid(2b8c202f3d8aab24f80a30b09b342ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/Character_Alien_Male_01.prefab using Guid(2b8c202f3d8aab24f80a30b09b342ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cd9bf88e58b938ca226e93e0a6f7d8') in 0.021333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Cinema.prefab
+  artifactKey: Guid(6fb06ce08ad6f9b42ae1f5117d1f7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Cinema.prefab using Guid(6fb06ce08ad6f9b42ae1f5117d1f7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8092ecc73c87deda8d27397bd2a116') in 0.010443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_04.prefab
+  artifactKey: Guid(9c7ae3da5a21607439c5b7b1b677f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_04.prefab using Guid(9c7ae3da5a21607439c5b7b1b677f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c405a87004baf47c2539f3078d5640') in 0.008322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_BaberShop.prefab
+  artifactKey: Guid(da3aa27e16a60194ea66f90d187a3660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_BaberShop.prefab using Guid(da3aa27e16a60194ea66f90d187a3660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2274c791714a622f46c828c3ca6b8430') in 0.008006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentSmall_Brown.prefab
+  artifactKey: Guid(52af65d65c7b1fe46bdee95d780157ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_ApartmentSmall_Brown.prefab using Guid(52af65d65c7b1fe46bdee95d780157ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33eb13b82015ca334f1d0e8c8f4dabc') in 0.001868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StoreCorner_Drug.prefab
+  artifactKey: Guid(6c0090ac963b4da4281d5504336c63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StoreCorner_Drug.prefab using Guid(6c0090ac963b4da4281d5504336c63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad93572c7258c1511c1802a6c6b6da2a') in 0.002040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.898931 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Black.prefab
+  artifactKey: Guid(c1bf78096101892488e2d81d47664125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Black.prefab using Guid(c1bf78096101892488e2d81d47664125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea74d9ed9c9878aa675844d190fad1c') in 0.021013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab
+  artifactKey: Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab using Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441f5cfdfe2e441a6ac72fb0a9c62455') in 0.005226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Black.prefab
+  artifactKey: Guid(f9d38fed7b251cb4f9546516bfaa11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Black.prefab using Guid(f9d38fed7b251cb4f9546516bfaa11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c1b0af4a177de24fa0b80688ae24f8') in 0.007051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Black.prefab
+  artifactKey: Guid(f96fa216d8859434fb29ff7cc4930724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Black.prefab using Guid(f96fa216d8859434fb29ff7cc4930724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e30c6789869bc100d0b9b71d5cfbfcd') in 0.004816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Orange.prefab
+  artifactKey: Guid(2f4930b22c943444e856b508d62919b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Orange.prefab using Guid(2f4930b22c943444e856b508d62919b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e184487fce5906ad41cd9d7adfd731b5') in 0.003686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Black.prefab
+  artifactKey: Guid(8f6b0c88789bc024189afa8e609cf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Black.prefab using Guid(8f6b0c88789bc024189afa8e609cf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eada4d20ec52b5b37b88fc518e648040') in 0.004353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Blue.prefab
+  artifactKey: Guid(fc0090dd60d993e4384cf6742d8b0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Blue.prefab using Guid(fc0090dd60d993e4384cf6742d8b0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668a07f2ee2e1c174902f7af83d4ad16') in 0.004716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Orange.prefab
+  artifactKey: Guid(7cd674477aac5864fb88016585b7e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Orange.prefab using Guid(7cd674477aac5864fb88016585b7e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dbdfe296ecf6308382def3320ff7b3') in 0.004637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab
+  artifactKey: Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab using Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9e07438e2c048b553f2b6388d58fab') in 0.004706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Yellow.prefab
+  artifactKey: Guid(56cd13756af305d4c9e7610f1eccbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Yellow.prefab using Guid(56cd13756af305d4c9e7610f1eccbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855b893ed4db0b161d3206ef2a44820a') in 0.004108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Models/Characters/Knight.prefab
+  artifactKey: Guid(8e744ce1f306e448988298e2a1bdcd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Models/Characters/Knight.prefab using Guid(8e744ce1f306e448988298e2a1bdcd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee0b6597080813101e3b7d113a9d4cb') in 0.075465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 973
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Minifigs/Tournament Knight.prefab
+  artifactKey: Guid(c6371bf0349e3488cbdc1f88aee94f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Minifigs/Tournament Knight.prefab using Guid(c6371bf0349e3488cbdc1f88aee94f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d2587eb7b5e177272dda18acfdd58c') in 0.040291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 378
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Orange.prefab
+  artifactKey: Guid(c2ca8777898f1bf498d59dccc8178d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Orange.prefab using Guid(c2ca8777898f1bf498d59dccc8178d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c636ed9942cee6a8247223ecf2c361') in 0.005331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

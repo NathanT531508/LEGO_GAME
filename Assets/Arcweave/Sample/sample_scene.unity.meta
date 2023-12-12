@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3829f05dae9817c45b144550ed712ce3
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148326
+  packageName: Arcweave Importer
+  packageVersion: 1.3
+  assetPath: Assets/Arcweave/Sample/sample_scene.unity
+  uploadId: 381473

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 375dc6784d819f74087039382cfe42eb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148326
+  packageName: Arcweave Importer
+  packageVersion: 1.3
+  assetPath: Assets/Arcweave/Sample/Animations/Loading.anim
+  uploadId: 381473
