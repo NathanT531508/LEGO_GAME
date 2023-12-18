@@ -1,16 +1,26 @@
 Using pre-set license
+<<<<<<< HEAD
 Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32509 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
+=======
+Built from '2023.1/staging' branch; Version is '2023.1.3f1 (e00e24c187a5) revision 14683684'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.1.3f1\Editor\Unity.exe
+>>>>>>> parent of 71395fbf (Changes 1)
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/natha/OneDrive/Documents/GitHub/LEGO_GAME
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +28,15 @@ Logs/AssetImportWorker0.log
 57589
 Successfully changed project path to: C:/Users/natha/OneDrive/Documents/GitHub/LEGO_GAME
 C:/Users/natha/OneDrive/Documents/GitHub/LEGO_GAME
+=======
+C:/Users/531508/lego
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54056
+Successfully changed project path to: C:/Users/531508/lego
+C:/Users/531508/lego
+>>>>>>> parent of 71395fbf (Changes 1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -39,6 +58,11 @@ C:/Users/natha/OneDrive/Documents/GitHub/LEGO_GAME
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+<<<<<<< HEAD
+=======
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+>>>>>>> parent of 71395fbf (Changes 1)
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -47,6 +71,7 @@ C:/Users/natha/OneDrive/Documents/GitHub/LEGO_GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 151.65 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
@@ -180,3 +205,1664 @@ Received Import Request.
   path: Assets
   artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643dbe22ecb75e7bba7c4df53f6b1cbf') in 0.007759 seconds 
+=======
+Player connection [15716] Host "[IP] 172.27.172.122 [Port] 0 [Flags] 2 [Guid] 3762063876 [EditorId] 3762063876 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21252) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15716] Host "[IP] 172.27.172.122 [Port] 0 [Flags] 2 [Guid] 3762063876 [EditorId] 3762063876 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21252) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 187.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.3f1 (e00e24c187a5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/531508/lego/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.011003 seconds.
+- Loaded All Assemblies, in  1.979 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.379 seconds
+Domain Reload Profiling: 2356ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (219ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (1433ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1427ms)
+			TypeCache.Refresh (1425ms)
+				TypeCache.ScanAssembly (1173ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (123ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.970 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 6 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 6281ms
+	BeginReloadAssembly (2482ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (2361ms)
+		LoadAssemblies (2614ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (576ms)
+			TypeCache.Refresh (527ms)
+				TypeCache.ScanAssembly (470ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.25 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6589 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (1.5 MB). Loaded Objects now: 7141.
+Memory consumption went from 264.3 MB to 262.8 MB.
+Total: 7.022800 ms (FindLiveObjects: 0.678800 ms CreateObjectMapping: 0.208400 ms MarkObjects: 5.492000 ms  DeleteObjects: 0.641800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1562671.298284 seconds.
+  path: Assets/Scenes/Nathan.unity
+  artifactKey: Guid(c8e3effaf8a10bd42838477279bc6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nathan.unity using Guid(c8e3effaf8a10bd42838477279bc6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397d71205bfb5464ebe0a838159a4574') in 0.009936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.950 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 6 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.387 seconds
+Domain Reload Profiling: 2332ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (379ms)
+			TypeCache.Refresh (363ms)
+				TypeCache.ScanAssembly (350ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.06 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6394 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.5 MB). Loaded Objects now: 7159.
+Memory consumption went from 230.0 MB to 228.5 MB.
+Total: 6.411300 ms (FindLiveObjects: 0.678600 ms CreateObjectMapping: 0.515200 ms MarkObjects: 4.738900 ms  DeleteObjects: 0.477600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 572.463618 seconds.
+  path: Assets/LEGO Data/Colliders/3001.prefab
+  artifactKey: Guid(86c79b9e055252d48bfef77871447a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Colliders/3001.prefab using Guid(86c79b9e055252d48bfef77871447a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f9ee42dcc8ee6601516765281042ab') in 0.026790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.019686 seconds.
+  path: Assets/LEGO Data/Connectivity/3626.prefab
+  artifactKey: Guid(90a9a579686b3ed46a5122782fe4051c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Connectivity/3626.prefab using Guid(90a9a579686b3ed46a5122782fe4051c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995b58d6939819062af061645a730c4d') in 0.004617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LEGO Data/Colliders/3814.prefab
+  artifactKey: Guid(eeb40566ec5f15442ba2486a874b5140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Colliders/3814.prefab using Guid(eeb40566ec5f15442ba2486a874b5140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d0a846b932c0418124229954feea35') in 0.001647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LEGO Data/Connectivity/3819.prefab
+  artifactKey: Guid(fea42a34634403b409c83a2af0f06ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Connectivity/3819.prefab using Guid(fea42a34634403b409c83a2af0f06ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f755e0c2a74ab07a76f385473ea365f') in 0.001486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LEGO Data/Connectivity/3820.prefab
+  artifactKey: Guid(bcbe18f62227e714e86e964a1b20d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Connectivity/3820.prefab using Guid(bcbe18f62227e714e86e964a1b20d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e849f13827ebec79c32135beddf1d45') in 0.001632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Colliders/3820.prefab
+  artifactKey: Guid(576e4b2b58746144ba8d3851c9f7faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Colliders/3820.prefab using Guid(576e4b2b58746144ba8d3851c9f7faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc077e9152bec8dc609f5af9b4046a3') in 0.002535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LEGO Data/Connectivity/3814.prefab
+  artifactKey: Guid(ea13bdf3e8caf074e967b084e4bf0778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Connectivity/3814.prefab using Guid(ea13bdf3e8caf074e967b084e4bf0778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784b3b57f2aa7bc8a5452dd59d396d87') in 0.002686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.032916 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/ambo_mesh.prefab
+  artifactKey: Guid(76c07dd6050c1274e957542c913d7907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/ambo_mesh.prefab using Guid(76c07dd6050c1274e957542c913d7907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae17b9f944c179d3da503fc3acf66cb7') in 0.008194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.022659 seconds.
+  path: Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Models/Characters/Bard.prefab
+  artifactKey: Guid(fc52ae78f81e143fbac25c6b5c11fb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Models/Characters/Bard.prefab using Guid(fc52ae78f81e143fbac25c6b5c11fb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82a6c277f54200b8cf113763b9b6789') in 0.153513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1458
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Garage_01.prefab
+  artifactKey: Guid(dce40da241e705b4c88a201ac6f01535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Garage_01.prefab using Guid(dce40da241e705b4c88a201ac6f01535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f47c37b9efac4fc88ca2a8c04c27f4') in 0.008219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_02.prefab
+  artifactKey: Guid(c2bc3c07e48b6234b8f21751ead01420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_02.prefab using Guid(c2bc3c07e48b6234b8f21751ead01420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647fd74231124a5d256b648f80ae7146') in 0.007937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_03.prefab
+  artifactKey: Guid(2ef0797da60407348b9b34c8739ce696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_03.prefab using Guid(2ef0797da60407348b9b34c8739ce696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e02ff22d9b4d38d17b302e7ae32be18') in 0.009349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_08.prefab
+  artifactKey: Guid(bb67634706e19034db5b3a269c6155e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_08.prefab using Guid(bb67634706e19034db5b3a269c6155e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c1019b67aee77e948943e32a3569bb') in 0.009483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_012.prefab
+  artifactKey: Guid(71cdc73ebf46f6347a5db5f55af2273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_012.prefab using Guid(71cdc73ebf46f6347a5db5f55af2273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba5a6e6fad92244845f5f964f131392') in 0.007328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_Green.prefab
+  artifactKey: Guid(34dea18c1f78fe14e90765bd1a4d911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_Green.prefab using Guid(34dea18c1f78fe14e90765bd1a4d911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af173eb7270c9a49a8a16a57bbd76a7f') in 0.007934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_Red.prefab
+  artifactKey: Guid(19da28f31e452744c9297f3b66231f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_Red.prefab using Guid(19da28f31e452744c9297f3b66231f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25307e842576b60abdab3ed93f7cc1de') in 0.002285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeLarge_Brown.prefab
+  artifactKey: Guid(c0afbc328a3df694da18927a90d8f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeLarge_Brown.prefab using Guid(c0afbc328a3df694da18927a90d8f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c036621d6848d9452df64f23aea37f5') in 0.003323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_013.prefab
+  artifactKey: Guid(47f2a8c4066d55e469290eded6598a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_013.prefab using Guid(47f2a8c4066d55e469290eded6598a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389b3f25783edc64b5d5fc82c70f1949') in 0.010214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeMedium_Grey.prefab
+  artifactKey: Guid(ea26e6b8ec086c24685bb20de981068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeMedium_Grey.prefab using Guid(ea26e6b8ec086c24685bb20de981068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dca3bf9b30113acb2b80c9d8797748') in 0.001876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Garage_03.prefab
+  artifactKey: Guid(30fba1c3c845fdf47b5228bcbf5a62ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Garage_03.prefab using Guid(30fba1c3c845fdf47b5228bcbf5a62ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974299f6793c53c2fc6136c990a0af41') in 0.006794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeSmall_Grey.prefab
+  artifactKey: Guid(dcbfe6575c5ca1341b8bedbf9f71b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeSmall_Grey.prefab using Guid(dcbfe6575c5ca1341b8bedbf9f71b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d70c8605d058c8b2110da6e8ca7105') in 0.002926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeStepped_Brown.prefab
+  artifactKey: Guid(15d1997dbe6ea8b498a94c418f219816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeStepped_Brown.prefab using Guid(15d1997dbe6ea8b498a94c418f219816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27166ed69fb3a649c818ee65296d0bec') in 0.002096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeStepped_Grey.prefab
+  artifactKey: Guid(1a61897f2f3c71f4090224a3a6b152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeStepped_Grey.prefab using Guid(1a61897f2f3c71f4090224a3a6b152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616c4d95dec9e775a76d02d30fe58ade') in 0.001611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeSmall_Brown.prefab
+  artifactKey: Guid(a34f6a526d05ad04990e600f38b3cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeSmall_Brown.prefab using Guid(a34f6a526d05ad04990e600f38b3cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37576a749b1494b968a497c472f689e4') in 0.001443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_05.prefab
+  artifactKey: Guid(a57f2a3f27562464e869aefe6954871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_05.prefab using Guid(a57f2a3f27562464e869aefe6954871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8f5a76c7394604c04088aa93af0906') in 0.008225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StoreCorner_Pawn.prefab
+  artifactKey: Guid(5a21fcb351fbcfc42b8bd782228bf6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_StoreCorner_Pawn.prefab using Guid(5a21fcb351fbcfc42b8bd782228bf6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fa19e728501d08f689a2ddf57f7c9d') in 0.008135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_blue.prefab
+  artifactKey: Guid(81de690e0bb3130439ed3ffedbd27be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_blue.prefab using Guid(81de690e0bb3130439ed3ffedbd27be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32495b0e10aac14f782ceeb4a9773124') in 0.007837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Store_Drug.prefab
+  artifactKey: Guid(4dc3e9b9e2c2a7b46a986f5e5c6a88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Store_Drug.prefab using Guid(4dc3e9b9e2c2a7b46a986f5e5c6a88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01e25062e53244134350706e50c6522') in 0.001477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_seperate_brown.prefab
+  artifactKey: Guid(36c5f285b8470fc4bb07a47a5a653cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_seperate_brown.prefab using Guid(36c5f285b8470fc4bb07a47a5a653cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd57f8b6312361215feaf28f14c561f') in 0.002415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/bush_small_mesh.prefab
+  artifactKey: Guid(b65b99031ee1bc4449bf81590c840ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Props/bush_small_mesh.prefab using Guid(b65b99031ee1bc4449bf81590c840ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f234725d6f0dd33a385a852bcadef28f') in 0.006870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeLarge_Grey.prefab
+  artifactKey: Guid(ad3e97d6ac163ba469c986d2a73341fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeLarge_Grey.prefab using Guid(ad3e97d6ac163ba469c986d2a73341fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cba2df2334e266076b6509e417120b') in 0.001520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Mall.prefab
+  artifactKey: Guid(93d5d405499fa854d95ac3de4ddff58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Mall.prefab using Guid(93d5d405499fa854d95ac3de4ddff58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63496ee1406e241bbaec125305506baa') in 0.007660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_04.prefab
+  artifactKey: Guid(d9052d0a1977d744fb0bd304bded4446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Shop_04.prefab using Guid(d9052d0a1977d744fb0bd304bded4446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483ee26d4900d19e1ab5ce161f3e55f0') in 0.008543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_grey.prefab
+  artifactKey: Guid(11d3990ed7e319145b8c9afecab8d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/bus_grey.prefab using Guid(11d3990ed7e319145b8c9afecab8d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd20340cf2d997277eaa76306bf0f407') in 0.002350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Garage_02.prefab
+  artifactKey: Guid(8e1758f591c5b284fac75b39f8d04a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Garage_02.prefab using Guid(8e1758f591c5b284fac75b39f8d04a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbffe3d6a00246e4bdeb3e7f206959c6') in 0.008641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_red.prefab
+  artifactKey: Guid(cb2a20ac02c20e74abb056fc15944ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_red.prefab using Guid(cb2a20ac02c20e74abb056fc15944ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96db61fe9b5d7f42eb8e43fc92fe8c72') in 0.002032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_seperate_green.prefab
+  artifactKey: Guid(059fdf75fe518a443ac7cdf212dee7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_seperate_green.prefab using Guid(059fdf75fe518a443ac7cdf212dee7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ae2504a4e1fd5f43fc3c6416fc7278') in 0.008285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_green.prefab
+  artifactKey: Guid(d09a964ced5836b4ebb7952b3c62fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_green.prefab using Guid(d09a964ced5836b4ebb7952b3c62fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2069ca76eca79f0f9b1f6537bd5f7a') in 0.002081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/Character_Alien_Male_02.prefab
+  artifactKey: Guid(b057ea2a8dfb7544fa2448a2e1357367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/Character_Alien_Male_02.prefab using Guid(b057ea2a8dfb7544fa2448a2e1357367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb81665a22ab4b1b3eb734e2354c2dea') in 0.055631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/FixedScaleCharacters/Character_Alien_Male_02.prefab
+  artifactKey: Guid(9724bf37757803a4997ef69d34974e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Characters/FixedScaleCharacters/Character_Alien_Male_02.prefab using Guid(9724bf37757803a4997ef69d34974e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcae96904837a80cfa96916905fa6d5e') in 0.018727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_seperate_red.prefab
+  artifactKey: Guid(5b69181328a5a694ebaf8a384abaffc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/car_seperate_red.prefab using Guid(5b69181328a5a694ebaf8a384abaffc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3be2cc1398292acaa709880cf6f631') in 0.002445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Gym.prefab
+  artifactKey: Guid(87fa912de9bd9a143a8a26511cd93987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_Gym.prefab using Guid(87fa912de9bd9a143a8a26511cd93987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cd0e5e95cca98f553d86a93746d656') in 0.009687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_06.prefab
+  artifactKey: Guid(3e562f66870da7849a59d194175db8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_06.prefab using Guid(3e562f66870da7849a59d194175db8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abe53ed9d61e0f779e9f172942f5dca') in 0.008190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_09.prefab
+  artifactKey: Guid(5f57f6bcab2ef2443bc08cac1a950f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_House_09.prefab using Guid(5f57f6bcab2ef2443bc08cac1a950f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f12527fbcbec81cb765581d4d385af0') in 0.009292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeMedium_Blue.prefab
+  artifactKey: Guid(0a9aa5b2741d2d44b86fdad12b65b9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Buildings/Building_OfficeMedium_Blue.prefab using Guid(0a9aa5b2741d2d44b86fdad12b65b9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833b15063e8595cb9cffafd8096a15aa') in 0.002227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.892251 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Black.prefab
+  artifactKey: Guid(507f5dc602b42c549a32a51aa9236bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Black.prefab using Guid(507f5dc602b42c549a32a51aa9236bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca0c934748b5108e7faf89224b9547f') in 0.018586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Orange.prefab
+  artifactKey: Guid(54fee8e3fe360674bb840654a1856247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Orange.prefab using Guid(54fee8e3fe360674bb840654a1856247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547320a0cc27c6218e0d41e3422f07f7') in 0.005175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Yellow.prefab
+  artifactKey: Guid(617c7e2b14c38da47b2a3e63f9e6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Yellow.prefab using Guid(617c7e2b14c38da47b2a3e63f9e6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373b8c659579c55750c4d0d37d79c334') in 0.005285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab
+  artifactKey: Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab using Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dafcaab70fd77e1eee69ace9ad03f45') in 0.003863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Blue.prefab
+  artifactKey: Guid(7320372aefdc71442a2cf8b68a738f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Blue.prefab using Guid(7320372aefdc71442a2cf8b68a738f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407b91ecbb1ece38777ff51826ded5c7') in 0.005803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Blue.prefab
+  artifactKey: Guid(482181b92a2966c40aab551dee82c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Blue.prefab using Guid(482181b92a2966c40aab551dee82c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad8648c41136d7556baf858c376a6a3') in 0.004224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Yellow.prefab
+  artifactKey: Guid(04da108a79352fd408b092086312e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Yellow.prefab using Guid(04da108a79352fd408b092086312e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba5c57ae138d6e6d03a3d81f07d9455') in 0.004643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Blue.prefab
+  artifactKey: Guid(a62e0ab0f0837ca48adf4710699a7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_03_Blue.prefab using Guid(a62e0ab0f0837ca48adf4710699a7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf4b07b468015f69e24adb33a126978') in 0.004250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Orange.prefab
+  artifactKey: Guid(e34bd3f5d4151cd438a2d6d09cc5e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Orange.prefab using Guid(e34bd3f5d4151cd438a2d6d09cc5e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffdd7c0e5f301b4298ed12e2a98c591') in 0.005557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Minifigs/Classic Knight.prefab
+  artifactKey: Guid(cae6eba835d3843da8f4bb0413e6eb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Knights Kingdom/Prefabs/LEGO Minifigs/Classic Knight.prefab using Guid(cae6eba835d3843da8f4bb0413e6eb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369d2a569c7bdfe90022bfba99c1ebaf') in 0.115996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 377
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Black.prefab
+  artifactKey: Guid(f575356c591a52e47a3f6efa6c18f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Black.prefab using Guid(f575356c591a52e47a3f6efa6c18f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01319155b057f2fba331bb0c01a4badc') in 0.005495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Blue.prefab
+  artifactKey: Guid(2b742818ae249a64dad8ff314e13200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Blue.prefab using Guid(2b742818ae249a64dad8ff314e13200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302042f65131326c08762805b1ccc5fd') in 0.005106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Yellow.prefab
+  artifactKey: Guid(b2d86ece2910c424eb07c39d2772e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_02_Yellow.prefab using Guid(b2d86ece2910c424eb07c39d2772e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1d1ff5e19a5af7f0bad131c7446533') in 0.005010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Yellow.prefab
+  artifactKey: Guid(359a3881d0d0e4143a67b57d6482e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Characters/Character_Knight_01_Yellow.prefab using Guid(359a3881d0d0e4143a67b57d6482e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facd89822c0a825cc929a0a475d2c11b') in 0.004329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.895 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 6 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.384 seconds
+Domain Reload Profiling: 2274ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (346ms)
+				TypeCache.ScanAssembly (331ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.14 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.5 MB). Loaded Objects now: 7178.
+Memory consumption went from 230.3 MB to 228.8 MB.
+Total: 8.152800 ms (FindLiveObjects: 0.889500 ms CreateObjectMapping: 0.400100 ms MarkObjects: 6.167800 ms  DeleteObjects: 0.694100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 668.004175 seconds.
+  path: Packages/com.unity.lego.materials/Materials/5.mat
+  artifactKey: Guid(a9983cd9542e14d41b5496990305c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/5.mat using Guid(a9983cd9542e14d41b5496990305c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2eff927db0bb53e7c0ee1989b6db3b') in 0.008060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/8.mat
+  artifactKey: Guid(4e6134a9ab3804958af8a9290fe502d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/8.mat using Guid(4e6134a9ab3804958af8a9290fe502d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b6347850e5fe6413afc4beba256510') in 0.001241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.030024 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/11.mat
+  artifactKey: Guid(c54510aeb6e1e4778bf78a2723c5def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/11.mat using Guid(c54510aeb6e1e4778bf78a2723c5def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef725c420e26bc9522f099806a5057db') in 0.001322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033008 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/15.mat
+  artifactKey: Guid(1e9896fd8a30645b989de1a986bc4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/15.mat using Guid(1e9896fd8a30645b989de1a986bc4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a82860585b5e4ec671b635b1e9853') in 0.001219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.051433 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/19.mat
+  artifactKey: Guid(a259fbcc82b6c42bc8b19294a2e602b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/19.mat using Guid(a259fbcc82b6c42bc8b19294a2e602b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddbb90c39ef7f6ca64a7109ae4d44ca') in 0.001368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Packages/com.unity.lego.materials/Materials/21.mat
+  artifactKey: Guid(e958f0d0ad3904c469fb8f836ca3b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/21.mat using Guid(e958f0d0ad3904c469fb8f836ca3b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53211002ac71b9bb2ad89f07f3bddb05') in 0.007622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.lego.materials/Materials/24.mat
+  artifactKey: Guid(b8712bbba06fec942871a200beae9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/24.mat using Guid(b8712bbba06fec942871a200beae9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5b69151be2b5cde4e87c91b560d0a6') in 0.007495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/25.mat
+  artifactKey: Guid(4f016e9a367b64ea8bcfd3f290869981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/25.mat using Guid(4f016e9a367b64ea8bcfd3f290869981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb4f21cba7f7293d8f18613ad197086') in 0.001896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000858 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/27.mat
+  artifactKey: Guid(888a587437c024f368ebcfa01f34eefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/27.mat using Guid(888a587437c024f368ebcfa01f34eefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d44f4256aef81421cf11945f5c7f64e') in 0.001638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.029035 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/36.mat
+  artifactKey: Guid(5b7036f2c0fb1425cb6c89bf2883df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/36.mat using Guid(5b7036f2c0fb1425cb6c89bf2883df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d61dea0a387191aaaa25c6c94ce862') in 0.001680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.lego.materials/Materials/38.mat
+  artifactKey: Guid(5f4a52146176b304297ed65b7ccd4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/38.mat using Guid(5f4a52146176b304297ed65b7ccd4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e49564d357edfd40f45412f8110874') in 0.001441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006645 seconds.
+  path: Packages/com.unity.lego.materials/Materials/40.mat
+  artifactKey: Guid(11323c8d186c42244aa99d444bee296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/40.mat using Guid(11323c8d186c42244aa99d444bee296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d37f0c7c472d4cbb4ac690f864f5de') in 0.001704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.871967 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/47.mat
+  artifactKey: Guid(213ff2ceb0c14e243acf4269a39c4a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/47.mat using Guid(213ff2ceb0c14e243acf4269a39c4a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511f038923e87ac13983676fea1fa30') in 0.001791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.047105 seconds.
+  path: Packages/com.unity.lego.materials/Materials/102.mat
+  artifactKey: Guid(1524a42202564ee4faf8ad701de88bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/102.mat using Guid(1524a42202564ee4faf8ad701de88bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7a36e69b3ea365db6334e319818038') in 0.001661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005424 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/104.mat
+  artifactKey: Guid(f443bca92609e4dcbbd9fbf9bf1656ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/104.mat using Guid(f443bca92609e4dcbbd9fbf9bf1656ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c953a77a92dd78b10cfcad834341312e') in 0.017009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.034060 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/108.mat
+  artifactKey: Guid(45233404ac52d48c08eacc7a59d755e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/108.mat using Guid(45233404ac52d48c08eacc7a59d755e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8fad861cfda78ac0386e5fdbc3a52f') in 0.001277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005663 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/110.mat
+  artifactKey: Guid(ffcebfda209864cecb7cce873d1b6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/110.mat using Guid(ffcebfda209864cecb7cce873d1b6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e4cfc3331bbbec8295992536d180eb') in 0.001294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.025706 seconds.
+  path: Packages/com.unity.lego.materials/Materials/113.mat
+  artifactKey: Guid(129d980c0cf06dc43803263c55689454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/113.mat using Guid(129d980c0cf06dc43803263c55689454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ed168579ecad6e6b42402d96723e43') in 0.001546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004834 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/116.mat
+  artifactKey: Guid(f453a60f61d9b4f4c88e75954d16d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/116.mat using Guid(f453a60f61d9b4f4c88e75954d16d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af376ea5026e3fbb19f582a1409bfa9') in 0.001225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007935 seconds.
+  path: Packages/com.unity.lego.materials/Materials/119.mat
+  artifactKey: Guid(7d8478bd4ba56f34a8b40b0cb51a17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/119.mat using Guid(7d8478bd4ba56f34a8b40b0cb51a17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248220f16c3d0907da6afe387ca8d10b') in 0.005488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002341 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/121.mat
+  artifactKey: Guid(4d8f93fe5a57a4cd3b9f9b86712466bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/121.mat using Guid(4d8f93fe5a57a4cd3b9f9b86712466bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaef94f8d82f49bb50d6eb32dd1a378') in 0.001556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.026840 seconds.
+  path: Packages/com.unity.lego.materials/Materials/124.mat
+  artifactKey: Guid(c54fa0a977bec4742a4b5d4a838535a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/124.mat using Guid(c54fa0a977bec4742a4b5d4a838535a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7d963008b3cb57726d4fcc1c68bd5c') in 0.001633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005631 seconds.
+  path: Packages/com.unity.lego.materials/Materials/126.mat
+  artifactKey: Guid(c07c14cf00aa9c9499cfcaf69df77718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/126.mat using Guid(c07c14cf00aa9c9499cfcaf69df77718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e63532c3f62857c5e59a19117fc504') in 0.001244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038410 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/133.mat
+  artifactKey: Guid(6fa25b6d635364d0c8b80228ef22852e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/133.mat using Guid(6fa25b6d635364d0c8b80228ef22852e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9b7c302370c34f352372b5c7160a01') in 0.001458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Packages/com.unity.lego.materials/Materials/135.mat
+  artifactKey: Guid(8dd268ad3a618d34db8fa2230402affe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/135.mat using Guid(8dd268ad3a618d34db8fa2230402affe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4fe37e0b23c4a88818f4d9e57eb6db') in 0.007244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003933 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/137.mat
+  artifactKey: Guid(9901e138ae29a4dc7a5e3351c75304a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/137.mat using Guid(9901e138ae29a4dc7a5e3351c75304a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aa24401e9beab3b9be007516d9430a') in 0.001189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015851 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/139.mat
+  artifactKey: Guid(1f7603e0d644ef4439149b1158fc8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/139.mat using Guid(1f7603e0d644ef4439149b1158fc8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a76e6302d28ac566ee241d8d264b6d') in 0.001246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006905 seconds.
+  path: Packages/com.unity.lego.materials/Materials/141.mat
+  artifactKey: Guid(f7f1064835ded8d4ea0f1efe4e40060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/141.mat using Guid(f7f1064835ded8d4ea0f1efe4e40060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f270526eceecbc02c4f8fc7ce08ff4') in 0.001703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.040041 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/147.mat
+  artifactKey: Guid(7abbc6baf187a48c3804d25c87a22663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/147.mat using Guid(7abbc6baf187a48c3804d25c87a22663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b80f5f2859f0c0cfeba9b3d462c0fe2') in 0.001628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.034079 seconds.
+  path: Packages/com.unity.lego.materials/Materials/151.mat
+  artifactKey: Guid(285ef789b10e79d4695398c4dfb8b401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/151.mat using Guid(285ef789b10e79d4695398c4dfb8b401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27ab6228ec1bbda42e96e238119da35') in 0.001574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005818 seconds.
+  path: Packages/com.unity.lego.materials/Materials/154.mat
+  artifactKey: Guid(e44b3634288b6614a919650741a79063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/154.mat using Guid(e44b3634288b6614a919650741a79063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dfe6163d6f65e2fd0b673917997ada') in 0.001511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038101 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/176.mat
+  artifactKey: Guid(b65f9ac4ba9cd468ca0f9ecb6d3e6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/176.mat using Guid(b65f9ac4ba9cd468ca0f9ecb6d3e6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7326405fc5c4375f11379dccafde13a4') in 0.001146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.020179 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/179.mat
+  artifactKey: Guid(6c7d79f00743a4b47823bcaf3eef316e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/179.mat using Guid(6c7d79f00743a4b47823bcaf3eef316e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec7994016453ac0569b7922361b1e45') in 0.001363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038273 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/185.mat
+  artifactKey: Guid(1b39f8878f93c4825b1048e97b463b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/185.mat using Guid(1b39f8878f93c4825b1048e97b463b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79524e4048bdd5c67921864907af4ced') in 0.001613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005533 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/187.mat
+  artifactKey: Guid(b92d8b499af344f1fa469dc6400bdf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/187.mat using Guid(b92d8b499af344f1fa469dc6400bdf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3b2ec16dd7bd2759b0b425617d3a9a') in 0.001724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.030803 seconds.
+  path: Packages/com.unity.lego.materials/Materials/191.mat
+  artifactKey: Guid(da3d053729cd2594f9e15f632cefd2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/191.mat using Guid(da3d053729cd2594f9e15f632cefd2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b173b75ccac071278b85673c39d249f') in 0.006798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/193.mat
+  artifactKey: Guid(3505ffa30f5214918a150730dd6d348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/193.mat using Guid(3505ffa30f5214918a150730dd6d348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a29544c9fdb874b5146f9277427abd') in 0.001249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005344 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/195.mat
+  artifactKey: Guid(10b52bf4b83c64e669bdbc45efa9dfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/195.mat using Guid(10b52bf4b83c64e669bdbc45efa9dfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4270006b4fd1375f99d3114c9efde99e') in 0.001601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009574 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/197.mat
+  artifactKey: Guid(048ab24c20a57405b9b8a66f884435a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/197.mat using Guid(048ab24c20a57405b9b8a66f884435a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace40706e2aa98a767d6cb69483887e') in 0.001656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009355 seconds.
+  path: Packages/com.unity.lego.materials/Materials/199.mat
+  artifactKey: Guid(06c52c0cf3e73c94ea6a5fc121b959db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/199.mat using Guid(06c52c0cf3e73c94ea6a5fc121b959db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e246cddfb402b79c3fb2ee2e63b754') in 0.008061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.900078 seconds.
+  path: Assets/AddOns/MgLEGO Knights Kingdom/Materials/Particles/Feather.mat
+  artifactKey: Guid(036128f8a4aa24f8ca2e240488ff6579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Knights Kingdom/Materials/Particles/Feather.mat using Guid(036128f8a4aa24f8ca2e240488ff6579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be405606afca53eda280d8e15011b8cd') in 0.002039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.020975 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7920b017dae029146fafa168241b90f') in 0.012083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8054631bd8efd745f6fc54df70aed53') in 0.003860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.245752 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32d757cea1ae04aed42ede6b5f6ee00') in 0.006768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ff459fd9d99a1c38e81311f7944973') in 0.004000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Arcweave/Sample/Fonts/OpenSans-Regular.ttf
+  artifactKey: Guid(dda3aa3451d8e9441acc21c9f9c845f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcweave/Sample/Fonts/OpenSans-Regular.ttf using Guid(dda3aa3451d8e9441acc21c9f9c845f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d55ec8fd84eeb1a3be05ae8ff450c2f') in 0.003097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat
+  artifactKey: Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat using Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad0b586677fe6833a73c9b2f107f102') in 0.003625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1702fecef42e8c2c195e5e3e8f67862') in 0.002936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa07a28aceaf7998e1312c7d1f4c6ef9') in 0.002288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Materials/Misc/FX_Black.mat
+  artifactKey: Guid(52f54f8012454f74eaa7e9926f989372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Materials/Misc/FX_Black.mat using Guid(52f54f8012454f74eaa7e9926f989372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b547232f90b636947e217c8ac15238e6') in 0.001471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.794875 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Materials/Misc/FX_Glow.mat
+  artifactKey: Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Materials/Misc/FX_Glow.mat using Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50be2a700416a890d5d51443a9579d27') in 0.001227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Materials/Misc/FX_LightRay.mat
+  artifactKey: Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Materials/Misc/FX_LightRay.mat using Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f12dd59f204ffa1ecbfafa05412b3f') in 0.001754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.551076 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Materials/Misc/FX_MuzzleFlash.mat
+  artifactKey: Guid(9e790bbee27d08e45ab96d553ca371c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Materials/Misc/FX_MuzzleFlash.mat using Guid(9e790bbee27d08e45ab96d553ca371c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f285bf4b847d7c3fd5220e4beaf336fc') in 0.001240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.088205 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightBlue.mat
+  artifactKey: Guid(49a52d2aca3bf4fcc92a803d63454f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightBlue.mat using Guid(49a52d2aca3bf4fcc92a803d63454f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff74164c45381ae9b104f7c4540dfbb4') in 0.001311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006137 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightRed.mat
+  artifactKey: Guid(b71aa9e959323446088a0a80a107fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightRed.mat using Guid(b71aa9e959323446088a0a80a107fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ae810a705956709e218b092bb9987d') in 0.001538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.058508 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Eyezor/Hip_Front_Eyezor.mat
+  artifactKey: Guid(9e49b58ab4c94447883021fe723e4462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Eyezor/Hip_Front_Eyezor.mat using Guid(9e49b58ab4c94447883021fe723e4462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a9f6146ed4ed362455a48012bfac0e') in 0.001885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.138768 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_TitaniumMetallic.mat
+  artifactKey: Guid(6a10c3c297ac048a7a2d8d30761c5bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_TitaniumMetallic.mat using Guid(6a10c3c297ac048a7a2d8d30761c5bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee8f6f075f9f52c9e29eeecc147acca') in 0.001446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.175332 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Jay/Leg_L_Foot_Jay.mat
+  artifactKey: Guid(2792fa39f849f4ba7b0cdbea1b695254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Jay/Leg_L_Foot_Jay.mat using Guid(2792fa39f849f4ba7b0cdbea1b695254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff8cc27b06737d2d493f19631f2e393') in 0.001821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.066831 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_ReddishBrown.mat
+  artifactKey: Guid(d2450468e5993864f85498a18f507607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_ReddishBrown.mat using Guid(d2450468e5993864f85498a18f507607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904b753aba1bd740f36ffa03203b2c91') in 0.013379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.031603 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Front_Black.mat
+  artifactKey: Guid(8118a270e3b8f49c5a34170e410b102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Front_Black.mat using Guid(8118a270e3b8f49c5a34170e410b102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58e4a0889a0487d5e150c381ff87a66') in 0.001328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.052791 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Front_EarthBlue.mat
+  artifactKey: Guid(5ba2d067cfaa44d36b88617e3f11b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Front_EarthBlue.mat using Guid(5ba2d067cfaa44d36b88617e3f11b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e464eceea420a53aa519a2939486e6e0') in 0.001314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.134986 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Front_ReddishBrown.mat
+  artifactKey: Guid(74061b74dc74a8140a99efd4c6c4574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Front_ReddishBrown.mat using Guid(74061b74dc74a8140a99efd4c6c4574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e6c8e3e6ef5fecc9b1cfc467c2b08f') in 0.001512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056018 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Zane/Leg_L_Front_Zane.mat
+  artifactKey: Guid(7dd11e1a7851140a2befda8dfa6e115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Zane/Leg_L_Front_Zane.mat using Guid(7dd11e1a7851140a2befda8dfa6e115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5784afaa00b86503b7ca904d9bc609fb') in 0.011495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.765709 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonVikings/Materials/PolyVikings_Fire_FX.mat
+  artifactKey: Guid(c913a706e8dff9142b0fd87f9be94835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonVikings/Materials/PolyVikings_Fire_FX.mat using Guid(c913a706e8dff9142b0fd87f9be94835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec83371effec504d899af0575d71a828') in 0.001414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006873 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Vehicle_Fire_Truck.mat
+  artifactKey: Guid(69c95aa252bd9cd4e928b727e8fa1132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Vehicle_Fire_Truck.mat using Guid(69c95aa252bd9cd4e928b727e8fa1132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108ce045e39d85bfcc495f8e3c6ad394') in 0.001847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.995869 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes/BlackboardFieldPillBackground.png
+  artifactKey: Guid(56603bbe7a2b54640bbd90104bea4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes/BlackboardFieldPillBackground.png using Guid(56603bbe7a2b54640bbd90104bea4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebed0444694ecd190cbc3bd4e6eb1b0f') in 0.001914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003054 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
+  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5342abcc0d9c7f90309944dab85c3cb4') in 0.001708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.099978 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_VolumeProfile Icon.asset
+  artifactKey: Guid(150de12d7eed3a2429509ab2146f6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_VolumeProfile Icon.asset using Guid(150de12d7eed3a2429509ab2146f6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795e5970cc319e1b3d06b3cc104ede8c') in 0.004781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@32.png
+  artifactKey: Guid(f05a6898ed8b6df43be9b7fbb34d0517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@32.png using Guid(f05a6898ed8b6df43be9b7fbb34d0517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0801034047ac84c4d04b309bd9ccc81d') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.422112 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/FX/Fire_02_FX.prefab
+  artifactKey: Guid(f65b497ff807d95439b38e7da2fab667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/FX/Fire_02_FX.prefab using Guid(f65b497ff807d95439b38e7da2fab667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7770021758b52780aa4e1c65870a52ab') in 0.004087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/fire_truck_mesh.prefab
+  artifactKey: Guid(0a2c2ce2cd4043846b9a0880b6f227dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/fire_truck_mesh.prefab using Guid(0a2c2ce2cd4043846b9a0880b6f227dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c7c26a9bacc3e6f3ae90b0928d3a4e') in 0.002270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/fire_truck_seperate_mesh.prefab
+  artifactKey: Guid(7cb5a7adf1c3451459dd75b2749bf290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Prefabs/Vehicles/fire_truck_seperate_mesh.prefab using Guid(7cb5a7adf1c3451459dd75b2749bf290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf8ad33b3ae95b41aa54cf5c6c92049') in 0.001913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/FX/FX_Fire.prefab
+  artifactKey: Guid(d86636147d551464aba1fca8c9d14a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/FX/FX_Fire.prefab using Guid(d86636147d551464aba1fca8c9d14a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db822f73ae38e3c984ec6896d3d9540') in 0.002420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_Campfire_01.fbx
+  artifactKey: Guid(42b5c80bc966e694cbb622db88d3cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_Campfire_01.fbx using Guid(42b5c80bc966e694cbb622db88d3cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1627f3b6ab39b639f0cc8049aedfc262') in 0.001538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Props/SA_Prop_Campfire_01.prefab
+  artifactKey: Guid(d1c2e8ace9465fc4c8b2dff63fc719b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Props/SA_Prop_Campfire_01.prefab using Guid(d1c2e8ace9465fc4c8b2dff63fc719b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ca38afdd9b3e76e15b08f7ea110f9e') in 0.002187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_FireHose_01.fbx
+  artifactKey: Guid(f1e7fe2f4f2f29e4ba9fc5ea84daa3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_FireHose_01.fbx using Guid(f1e7fe2f4f2f29e4ba9fc5ea84daa3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7437ec8e28a493b2f79423d0bb53740c') in 0.001893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/FX/FX_Fire.prefab
+  artifactKey: Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/FX/FX_Fire.prefab using Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8fac69d895779f6d9a91c2cc729668') in 0.005755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Props/SA_Prop_Firewood_01.prefab
+  artifactKey: Guid(47bd7dcc2b604e94ebcc6619e66204cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Props/SA_Prop_Firewood_01.prefab using Guid(47bd7dcc2b604e94ebcc6619e66204cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28b611d7ffa138947bf6e2d79343fe1') in 0.002462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_Firewood_01_Convex.asset
+  artifactKey: Guid(7551afaa1f8228f4aa117af5b3ca3a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_Firewood_01_Convex.asset using Guid(7551afaa1f8228f4aa117af5b3ca3a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca8abc230330d2f087abaec75612f45') in 0.001866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Vehicles/SA_Veh_Firetruck.fbx
+  artifactKey: Guid(4453a13ed9c2c10479a031534efae553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Vehicles/SA_Veh_Firetruck.fbx using Guid(4453a13ed9c2c10479a031534efae553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7da4b69e68e5140970a1e7af15ff37') in 0.003169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Weapons/SA_Wep_Fireaxe.fbx
+  artifactKey: Guid(eefae5af4ac94ca4884e3746758a5ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Weapons/SA_Wep_Fireaxe.fbx using Guid(eefae5af4ac94ca4884e3746758a5ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b86f30aff7052f081102f038d4d08d8') in 0.009493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_firetruck_Destroyed_01.fbx
+  artifactKey: Guid(683744c82b2669945950a2e60446287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Props/SA_Prop_firetruck_Destroyed_01.fbx using Guid(683744c82b2669945950a2e60446287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193dc7dc917ab79ab6c0e4d8f3ba51b3') in 0.001937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/SA_Character.fbx
+  artifactKey: Guid(dbbc53a6bc8f5c64bb234194ce1380aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/SA_Character.fbx using Guid(dbbc53a6bc8f5c64bb234194ce1380aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e3f1ac35bcafa24ffcef5e199e487a') in 0.018318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 249
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Weapons/SA_Wep_Fireaxe_Convex.asset
+  artifactKey: Guid(0aa4723f51fae1f4bbe14266c85b7cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Weapons/SA_Wep_Fireaxe_Convex.asset using Guid(0aa4723f51fae1f4bbe14266c85b7cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b21ff86d4d5dc5d65fef33469821303') in 0.002036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Vehicles/SA_Veh_Firetruck.prefab
+  artifactKey: Guid(7f3b0320260bec34db6f29f31c5884f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Vehicles/SA_Veh_Firetruck.prefab using Guid(7f3b0320260bec34db6f29f31c5884f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306dbb79f98ac8a9fa572baa43343a8f') in 0.002786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Firefighter.prefab
+  artifactKey: Guid(6c48ed3b2c64908448212ef062aace3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Firefighter.prefab using Guid(6c48ed3b2c64908448212ef062aace3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718c41a794f07879109f3d5831e420d7') in 0.008569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 248
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_01_Convex 1.asset
+  artifactKey: Guid(ee43f819832333b4584b2bb95813f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_01_Convex 1.asset using Guid(ee43f819832333b4584b2bb95813f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fc4bc6d424c64d2bd0055731bcae68') in 0.002928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/SM_Bld_FireEscape_02.fbx
+  artifactKey: Guid(4cb0686ca55c21f4d9bfa80ddbdc3a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/SM_Bld_FireEscape_02.fbx using Guid(4cb0686ca55c21f4d9bfa80ddbdc3a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b3e3e7bc6456351bc0f7c3cf4a34fb') in 0.001917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_02_Convex 1.asset
+  artifactKey: Guid(fc6f9f7e6d462034f8372d5d91ad3b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_02_Convex 1.asset using Guid(fc6f9f7e6d462034f8372d5d91ad3b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cd16e2612e3d773c1812fd6ab7a834') in 0.002588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_03_Convex.asset
+  artifactKey: Guid(45ef003a6dcd4a349bffba05178857d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_03_Convex.asset using Guid(45ef003a6dcd4a349bffba05178857d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae93b5ce74bfb301d1c3d7e5c8f81d2') in 0.001865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Props/SM_Prop_CampFire_01.prefab
+  artifactKey: Guid(bddb857dccb8156419a78be08cb4b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Props/SM_Prop_CampFire_01.prefab using Guid(bddb857dccb8156419a78be08cb4b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3000b699c5d00056c6cfbb7e073ee060') in 0.006907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Models/SM_Prop_CampFire_01_Convex.asset
+  artifactKey: Guid(0d6e379fe09c6bd45abb06dc545b948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Models/SM_Prop_CampFire_01_Convex.asset using Guid(0d6e379fe09c6bd45abb06dc545b948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd756341dec2f32016476ce9cf4cd349d') in 0.001610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_03_Convex 1.asset
+  artifactKey: Guid(bd1b089805fe58543936dca5e51e2494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonCity/Models/Collisions/SM_Bld_FireEscape_03_Convex 1.asset using Guid(bd1b089805fe58543936dca5e51e2494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d03e793fd70e033e465c167b8618a35') in 0.002282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.013142 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/ST_Veh_Fire_Truck_Z.fbx
+  artifactKey: Guid(2c45e63b358971047b23c687af5e55a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/ST_Veh_Fire_Truck_Z.fbx using Guid(2c45e63b358971047b23c687af5e55a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f5b16b2feba1c5d35806656605810e') in 0.003249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Textures/Vehicle_Fire_Truck.png
+  artifactKey: Guid(d82928445ac1cff43ad93019ab6adc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Textures/Vehicle_Fire_Truck.png using Guid(d82928445ac1cff43ad93019ab6adc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8927239831a63999cdef389497f53a') in 0.001884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\531508\lego\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.007 seconds
+Refreshing native plugins compatible for Editor in 4.87 ms, found 6 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.522 seconds
+Domain Reload Profiling: 2522ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (689ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (384ms)
+				TypeCache.ScanAssembly (367ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.5 MB). Loaded Objects now: 7197.
+Memory consumption went from 231.9 MB to 230.4 MB.
+Total: 8.176500 ms (FindLiveObjects: 0.863400 ms CreateObjectMapping: 0.195200 ms MarkObjects: 6.289600 ms  DeleteObjects: 0.827100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> parent of 71395fbf (Changes 1)
